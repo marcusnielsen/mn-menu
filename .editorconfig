@@ -1,0 +1,15 @@
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[**.js]
+; The default is taken from the lib folder inside the folder extension.
+path=~/.vim/bundle/vim-jsbeautify/plugin/beautify.js
+; Javascript interpreter to be invoked by default 'node'
+bin=node
