@@ -1,4 +1,5 @@
 var angular = require('angular')
+
 var mnMenu = require('./mn-menu')
 var MnMenuFactory = require('./mn-menu-factory')
 var mnMenuController = require('./mn-menu-controller')

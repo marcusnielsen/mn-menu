@@ -1,3 +1,5 @@
 var angular = require('angular')
 
-angular.module('mnMenu', [])
+var mnMenu = require('./mn-menu')
+
+angular.module('mnMenu', [mnMenu.name])
